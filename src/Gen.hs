@@ -5,8 +5,8 @@ import Data.List.Split -- splitOn
 import System.IO
 import System.Process
 
-main :: IO ()
-main = do
+sequence :: IO ()
+sequence = do
   -- Environment Setting
   env <- getEnv "HOME"
   let localPath = "/.local/lib/HTEPS/"
